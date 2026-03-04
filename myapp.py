@@ -1,7 +1,6 @@
 import streamlit as st
 import mysql.connector
 import pandas as pd
-import math
 
 st.set_page_config(page_title=" Smart Logistics Dashboard", layout="wide", initial_sidebar_state="expanded")
 
@@ -602,6 +601,7 @@ elif page == "Advanced Analytics":
 
         else:
             st.info("No shipment traffic data available.")
+
 
 
 
